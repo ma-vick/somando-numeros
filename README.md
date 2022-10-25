@@ -5,4 +5,8 @@
 
 A solução é simples e contém duas entradas númericas para soma dos valores.
 
-[Acesse aqui o projeto.](https://ma-vick.github.io/somando-numeros/)
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/106677669/197652251-97692c80-6fde-4a63-aa25-47572826c9fe.jpg"/>
+</div>
+
+🔗 [Acesse aqui o projeto.](https://ma-vick.github.io/somando-numeros/)
