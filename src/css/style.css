@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: none;
 }
 
 body {
@@ -13,71 +18,85 @@ body {
     align-items: center;
     justify-content: center;
     font: normal 12pt Arial;
-    background-color: #B175FA;
+    background-color: #ADD2CA;
 }
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
-    width: 450px;
-    padding: 30px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.357);
+    justify-content: center;
+    gap: 16px;
+    background-color: #FAF8F9;
+    width: 380px;
+    height: 485px;
+    padding: 12px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 60px;
-    color: #573A7A;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.104);
-    text-transform: uppercase;
+    margin-top: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #5EA2A3;
 }
 
 .numbers {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
 }
 
 .number-input {
+    background: #ADD2CA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    width: 220px;
+    height: 100px;
     font-family: 'Montserrat', sans-serif;
-    border-style: none;
-    outline: none;
-    height: 35px;
-    padding: 12px;
-    border-radius: 12px;
-    background-color: #B175FA;
-    color: white;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.245);
+    font-size: 20px;
+    color: #478A90;
+    text-align: center;
+}
+
+.signal-plus {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #5EA2A3;
 }
 
 .btn-somar {
-    border-style: none;
-    margin: 30px;
+    margin: 30px 0 0 0;
     padding: 12px;
     width: 200px;
-    font: bold 13pt Arial;
     border-radius: 12px;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.245);
-    background-color: #573A7A;
-    font-family: 'Montserrat', sans-serif;    letter-spacing: .3em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #5EA2A3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    letter-spacing: .1em;
     color: white;
 }
 
 .btn-somar:hover {
-    background-color: #2e1150;
+    background-color: #478A90;
 }
 
 .res {
     font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    color: #2e1150;
+    color: #478A90;
 }
 
 span {
     margin-left: 7px;
     font-size: 1.3em;
     font-weight: bolder;
-    color: #B175FA;
+    color: #478A90;
 }
